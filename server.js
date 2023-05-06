@@ -8,7 +8,7 @@ var uuid = require('node-uuid')
 , express = require('express')
 , colors = require('colors')
 , app = express()
-, port = process.env.PORT || 3002;
+, port = process.env.PORT || 7001;
  
 app.use(express.static(__dirname + '/public'));
 
